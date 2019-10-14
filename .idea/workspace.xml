@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e733f6-0240-4c92-a94e-ed06448f66de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CRUDTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Deleted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CRUDTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CRUDTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,50 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="TestNG.CRUDTests">
+    <configuration name="CRUDTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_Trello_CRUD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDTests.CreateANewBoard" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_Trello_CRUD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="METHOD_NAME" value="CreateANewBoard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRUDTests.MoveCardToDoneList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_Trello_CRUD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CRUDTests" />
+      <option name="METHOD_NAME" value="MoveCardToDoneList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CRUDTests" />
+        <item itemvalue="TestNG.CRUDTests.MoveCardToDoneList" />
+        <item itemvalue="TestNG.CRUDTests.CreateANewBoard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
